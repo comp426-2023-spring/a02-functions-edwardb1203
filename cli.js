@@ -24,7 +24,7 @@ var timezone = moment.tz.guess()
 
 // Setting lat and long from cli arg
 var lat = args.n || (args.s * -1);
-var long = args.e || (args.w) * -1;
+var long = args.e || (args.w * -1);
 
 // Building URL
 if(args.z){
